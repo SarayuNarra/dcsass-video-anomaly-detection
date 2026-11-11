@@ -4,6 +4,19 @@ A deep learning project for classifying video clips into **Normal Behaviour** an
 
 The project includes a Streamlit application that allows users to upload a video and view the model's prediction.
 
+## Live Demo
+
+**Try the application:** https://video-anomaly-detection.streamlit.app/
+
+**Source Code:** https://github.com/SarayuNarra/dcsass-video-anomaly-detection
+
+The application allows users to upload a video and receive one of two predictions:
+
+- Normal Behaviour
+- Abnormal Behaviour
+
+The application is deployed using Streamlit Community Cloud.
+
 ## Project Overview
 
 Video anomaly detection aims to identify unusual or potentially abnormal activities in video footage.
@@ -70,8 +83,8 @@ DCSASS-Dataset/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/SarayuNarra/dcsass-video-anomaly-detection.git
+cd dcsass-video-anomaly-detection
 ```
 
 ### 2. Create a virtual environment
@@ -138,9 +151,10 @@ This project uses the DCSASS video anomaly detection dataset.
 - [x] Model checkpoint saved
 - [x] Streamlit application implemented
 - [x] Local inference tested
+- [x] GitHub publication
+- [x] Cloud deployment
+- [x] Cloud inference tested
 - [ ] Final test metrics documented
-- [ ] Public deployment
-- [ ] GitHub publication
 
 ## Future Improvements
 
@@ -148,8 +162,7 @@ This project uses the DCSASS video anomaly detection dataset.
 - Evaluate performance on unseen videos.
 - Add detailed evaluation metrics.
 - Optimize inference speed.
-- Deploy the application publicly.
 
----
+## Disclaimer
 
-**Disclaimer:** This is an experimental machine learning project. Its predictions should not be treated as definitive evidence of abnormal or criminal activity.
+This is an experimental machine learning project. Its predictions should not be treated as definitive evidence of abnormal or criminal activity.
