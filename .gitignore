@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local datasets
+Labels/
+Abuse/
+Arrest/
+Arson/
+Assault/
+Burglary/
+Explosion/
+Fighting/
+RoadAccidents/
+Robbery/
+Shooting/
+Shoplifting/
+Stealing/
+Vandalism/
+
+# Extracted data and features
+preprocessed_full/
+preprocessed_test/
+mobilenet_features/
+mobilenet_features_full/
+
+# Dataset metadata
+train.csv
+validation.csv
+test.csv
+full_video_manifest.csv
+full_preprocessed_metadata.csv
+
+# Previous experiment outputs
+model_outputs/
+model_outputs_experiment1/
+model_outputs_experiment3/
+model_outputs_experiment4/
+model_outputs_experiment5/
+
+# Archives and temporary files
+*.zip
+*.tmp
+.DS_Store
+
+# Secrets
+.env
+.streamlit/secrets.toml
